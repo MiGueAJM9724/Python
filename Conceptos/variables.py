@@ -1,0 +1,2 @@
+tutor = "codi"
+print(tutor)

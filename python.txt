@@ -1,0 +1,18 @@
+/*
+Que es Python es un lenguaje de progración 80's
+Proposito general, es interpretado, tipado dinamico, multiparadigma, multiplataforma
+curva de aprendizaje baja, sintaxis limpia.
+*/
+windows terminal
+migue>Python
+>>>
+>>>exit()
+linux $python3
+$Python
+>>>quit
+MacOS
+$python $pythonversion
+>>>quit()
+IDES y Editores
+IDE:Entorno de desarrollo integrado (pyCharm; PyDev)
+Editor: Son herraminetas de software que nos permiten crear archivos de texto
