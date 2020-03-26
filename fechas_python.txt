@@ -79,3 +79,18 @@ def current_date_format(date):
 
 now = datetime.now()
 print(current_date_format(now))
+
+ejemplos
+#Definimos una entrada por default : 10:00 AM
+entrada = datetime(2019, 3, 15, 10, 00, 00, 00000)
+
+#Definimos una salida por default : 5:00 PM
+salida = datetime(2019, 3, 15, 17, 30, 00, 00000)
+
+#Obtenemos los segundos transcurridos entre ambas fechas
+tiempo_transcurrido = salida - entrada
+segundos_transcurridos = tiempo_transcurrido.seconds
+
+#Convertimos los segundos a horas String
+horas_transcurridas = str(timedelta(seconds=segundos_transcurridos))
+print(horas_transcurridas)
