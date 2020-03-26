@@ -1,10 +1,13 @@
 #import modulos
 from modulos import *
+from animales import Pinguino
 #utilizamos suma del modulo modulos
 #resultado = modulos.suma(10, 20)
 resultado = suma(10, 20)
 print(resultado)
-
+ pinguino = Pinguino()
+ pinguino.nadar()
+ mi_jaguar.rugir()
 """
 Formas de imports
 from modulos import * #importamos todo
@@ -23,7 +26,6 @@ Archivos PYC se generan nuevos archivos folder (__pycache__), que contiene un ar
 """
 Atributo __name__
 """
-import modulos
 dir(modulos) #retorna una lista con todos los objetos de nuestro modulo
 print(modulos.__name__) #muestra el nombre del modulo
 print(__name__) #__main__
