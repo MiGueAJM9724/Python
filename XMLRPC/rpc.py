@@ -1,6 +1,5 @@
 from xmlrpc.server import SimpleXMLRPCServer
 
-
 class RPC:
     _metodos_rpc = ['get', 'set', 'delete', 'exists', 'keys']
 
@@ -33,3 +32,4 @@ if __name__ == '__main__':
     rpc = RPC(('', 20064))
     print('Se ha iniciado el servidor RPC')
     rpc.iniciar_servidor()
+    
